@@ -4,6 +4,9 @@
 $font12 : 12px;
 $color:#999999;
 $font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+.active{
+	background:#58bc58;
+}
 
 #logo{
 	width: 100%;
@@ -343,9 +346,7 @@ $font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-se
 					}
 				}
 			} 
-			span.active{
-				background:#58bc58;
-			}
+			
 			.banner{
 				width: 800px;
 				height: 400px;

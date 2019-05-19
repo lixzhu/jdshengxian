@@ -151,7 +151,6 @@ $('#goodsdec').on('click','.join',function(){
 	var shopname = $(this).parent().parent().children(0).find('.shopnames').html()
 	var bigimg = $(this).parent().parent().prev().children(0).children(0).attr('src').slice(3);
 	var price = $(this).parent().parent().find('.price').children(1).find('.money').html().slice(1);
-	console.log(price);
 	if(howsize){
 		$.ajax({
 			type : 'post',
@@ -186,5 +185,34 @@ $('#goodsdec').on('click','.join',function(){
 $('#list_cart').click(function() {
 	location.href = 'cart.html';
 });
+
+// 点击左右按钮
+$('#goodsdec').on('click','.leftbtn',function(){
+	var ulleft = $(this).next().eq(0).css('left').slice(0,-2);
+	if(ulleft >= 42){
+		$(this).next().eq(0).css('left','42px');
+	}else{
+		var movel = (ulleft * 1 + 52) + 'px';  
+		 $(this).next().eq(0).css('left',movel);
+	}
+
+});
+
+// // $('#goodsdec').on('click','.rightbtn',function(){
+// // 	var ulwidth = $(this).next().eq(0).children() * 52;
+// // 	var ulleft = $(this).prev().eq(0).css('left').slice(0,-2);
+// // 	var num = ulwidth - 262;
+// // 	var ulW = num * 1 + 42 + 'px';
+// // 	console.log($(this).next().eq(0));
+// // 	if(ulleft <= num){
+// // 		$(this).prev().eq(0).css('left','-42px');
+// // 	}else{
+// // 		var movel = (ulleft - 52) + 'px';  
+// // 		$(this).prev().eq(0).css('left',movel);
+
+// // 	}
+// // 		console.log($(this).prev().eq(0).css('left'));
+	
+// });
 
 })();

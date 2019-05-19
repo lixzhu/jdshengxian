@@ -82,7 +82,7 @@
 	//请求数据
 	$.ajax({
 		type : 'post',
-		url : 'api/01index.php',
+		url : 'api/index.php',
 		success : function(str){
 			create(str)
 		}
@@ -154,7 +154,6 @@
 				//没到达终点
 				//3.毫秒数->xx天xx时xx分xx秒
 				var time = setTime(dix);
-				var html = time.days + `天${time.hours}时${time.mins}分${time.secs}秒`;
 				var hour = `${time.hours}`;
 				var min = `${time.mins}`;
 				var sec = `${time.secs}`;
@@ -257,7 +256,6 @@
 			$('#right_bar').css('display','none');
 		}
 		var windowScrollTop = $(window).scrollTop() + 5;
-		console.log(windowScrollTop);
 		if(windowScrollTop >= sxtop1 && windowScrollTop <= sxtop2 ){
 			$('#shengxkill').css('background','#58bc58');
 			$('#shengxkill').parent().siblings().children().css('background','#a7a7a7');

@@ -10,6 +10,7 @@
 	$bigimg = isset($_POST['bigimg']) ? ($_POST['bigimg']) : '';
 	$shopname = isset($_POST['shopname']) ? ($_POST['shopname']) : '';
 	$price = isset($_POST['price']) ? ($_POST['price']) : '';
+	$inventory = $much * 1 + 100;
 
 	if($gid && $much && $usernames){
 		$sql = "select * FROM shoppinglist WHERE usernames = $usernames AND gid = $gid";//是否已有商品
@@ -31,7 +32,7 @@
 
 		}else{
 			//否：则插入数据
-			$sql = "INSERT INTO shoppinglist(usernames,gid,num,bigimg,size,describei,shopname,price) VALUES('$usernames','$gid','$much','$bigimg','$howsize','$describei','$shopname','price')";
+			$sql = "INSERT INTO shoppinglist(usernames,gid,num,bigimg,size,describei,shopname,price,inventory) VALUES('$usernames','$gid','$much','$bigimg','$howsize','$describei','$shopname','price','$inventory')";
 			$res = $conn->query($sql);
 
 			if($res){

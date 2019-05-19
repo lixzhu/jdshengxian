@@ -1,137 +1,116 @@
 #head {
   width: 100%;
   height: 110px;
-  background: url(../img/reg_headbd.jpg) repeat-x left bottom;
-}
-#head .head {
-  width: 1210px;
-  height: 110px;
-  margin: 0 auto;
-}
-#head .head .logo {
-  width: 160px;
-  height: 50px;
-  float: left;
-  margin-top: 24px;
-  background: url(../img/reg_icon.png) no-repeat 0 0;
-}
-#head .head .logo_title {
-  height: 34px;
-  line-height: 34px;
-  font-size: 24px;
-  color: #333;
-  margin-top: 34px;
-}
-#head .head .have_account {
-  width: 145px;
-  height: 20px;
-  line-height: 20px;
-  font-size: 16px;
-  float: right;
-  margin-top: 55px;
-  color: #999;
-}
-#head .head .have_account a {
-  color: #e22;
-}
+  background: url(../img/reg_headbd.jpg) repeat-x left bottom; }
+  #head .head {
+    width: 1210px;
+    height: 110px;
+    margin: 0 auto; }
+    #head .head .logo {
+      width: 160px;
+      height: 50px;
+      float: left;
+      margin-top: 24px;
+      background: url(../img/reg_icon.png) no-repeat 0 0; }
+    #head .head .logo_title {
+      height: 34px;
+      line-height: 34px;
+      font-size: 24px;
+      color: #333;
+      margin-top: 34px; }
+    #head .head .have_account {
+      width: 145px;
+      height: 20px;
+      line-height: 20px;
+      font-size: 16px;
+      float: right;
+      margin-top: 55px;
+      color: #999; }
+      #head .head .have_account a {
+        color: #e22; }
 
 #container {
   width: 100%;
-  height: 407px;
-}
-#container .container {
-  width: 1210px;
-  margin: 0 auto;
-  height: 407px;
-}
-#container .container .progress {
-  margin: 0 auto;
-  width: 400px;
-  height: 55px;
-  text-align: center;
-  line-height: 55px;
-  font-size: 20px;
-  color: #555;
-  font-weight: 700;
-  border: 1px solid #ccc;
-}
-#container .container .main {
-  position: relative;
-  margin: 30px auto 186px;
-  width: 400px;
-  height: 344px;
-}
-#container .container .main form {
-  width: 400px;
-  height: 344px;
-}
-#container .container .main form .input {
-  width: 400px;
-  height: 50px;
-  border: solid 1px #ddd;
-}
-#container .container .main form .input label {
-  float: left;
-  width: 107px;
-  height: 50px;
-  font-size: 14px;
-  color: #666;
-  padding-left: 20px;
-  line-height: 50px;
-}
-#container .container .main form .input input {
-  float: left;
-  width: 290px;
-  height: 46px;
-  font-size: 14px;
-  padding: 16px 0px 11px 20px;
-  color: #ccc;
-}
-#container .container .main form .mes {
-  clear: both;
-  padding-left: 5px;
-  width: 400px;
-  height: 30px;
-  font-size: 12px;
-  color: #ddd;
-  line-height: 30px;
-  text-align: left;
-}
-#container .container .main form .sumbit {
-  width: 400px;
-  height: 54px;
-  background: #e2231a;
-  line-height: 54px;
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
-}
-#container .container .foot {
-  width: 1210px;
-  height: 66px;
-  font-size: 12px;
-  color: #999;
-  padding: 30px 0 15px;
-}
-#container .container .foot ul {
-  width: 1210px;
-  height: 20px;
-  text-align: center;
-  margin-left: 218px;
-}
-#container .container .foot ul li {
-  float: left;
-  border-right: 1px solid #999;
-}
-#container .container .foot ul li a {
-  color: #999;
-  margin: 0 10px;
-}
-#container .container .banquan {
-  font-size: 12px;
-  color: #999;
-  text-align: center;
-  margin-bottom: 30px;
-}
+  height: 407px; }
+  #container .container {
+    width: 1210px;
+    margin: 0 auto;
+    height: 407px; }
+    #container .container .progress {
+      margin: 0 auto;
+      width: 400px;
+      height: 55px;
+      text-align: center;
+      line-height: 55px;
+      font-size: 20px;
+      color: #555;
+      font-weight: 700;
+      border: 1px solid #ccc; }
+    #container .container .main {
+      position: relative;
+      margin: 30px auto 186px;
+      width: 400px;
+      height: 344px; }
+      #container .container .main form {
+        width: 400px;
+        height: 344px; }
+        #container .container .main form .input {
+          width: 400px;
+          height: 50px;
+          border: solid 1px #ddd; }
+          #container .container .main form .input label {
+            float: left;
+            width: 107px;
+            height: 50px;
+            font-size: 14px;
+            color: #666;
+            padding-left: 20px;
+            line-height: 50px; }
+          #container .container .main form .input input {
+            float: left;
+            width: 290px;
+            height: 46px;
+            font-size: 14px;
+            padding: 16px 0px 11px 20px;
+            color: #ccc; }
+        #container .container .main form .mes {
+          clear: both;
+          padding-left: 5px;
+          width: 400px;
+          height: 30px;
+          font-size: 12px;
+          color: #ddd;
+          line-height: 30px;
+          text-align: left; }
+        #container .container .main form .sumbit {
+          width: 400px;
+          height: 54px;
+          background: #e2231a;
+          line-height: 54px;
+          font-size: 16px;
+          color: #fff;
+          text-align: center; }
+    #container .container .foot {
+      width: 1210px;
+      height: 66px;
+      font-size: 12px;
+      color: #999;
+      padding: 30px 0 15px; }
+      #container .container .foot ul {
+        width: 1210px;
+        height: 20px;
+        text-align: center;
+        margin-left: 218px; }
+        #container .container .foot ul li {
+          float: left;
+          border-right: 1px solid #999; }
+          #container .container .foot ul li a {
+            color: #999;
+            margin: 0 10px; }
+    #container .container .banquan {
+      font-size: 12px;
+      color: #999;
+      text-align: center;
+      margin-bottom: 30px; }
 
 /*# sourceMappingURL=reg.css.map */

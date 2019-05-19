@@ -1,329 +1,276 @@
 #list_logo {
   width: 100%;
-  height: 145px;
-}
-#list_logo .list_logo {
-  width: 1390px;
-  height: 87px;
-  margin: 0 auto;
-}
-#list_logo .list_logo .list_logo_left {
-  width: 276px;
-  height: 50px;
-  margin: 15px 0px 22px;
-}
-#list_logo .list_logo .list_logo_left h1 a {
-  display: block;
-  width: 134px;
-  height: 42px;
-  background: url(../img/samlllogo_1.png) no-repeat -10px 0px;
-}
-#list_logo .list_logo .list_logo_center {
-  width: 706px;
-  height: 87px;
-  margin-left: 95px;
-  padding: 27px 30px 0 0;
-}
-#list_logo .list_logo .list_logo_center form {
-  width: 706px;
-  height: 40px;
-}
-#list_logo .list_logo .list_logo_center form .text {
-  float: left;
-  width: 626px;
-  height: 36px;
-  padding: 4px 44px 4px 4px;
-  background: #fff;
-  border-width: 2px 0 2px 2px;
-  border-color: #f30213;
-  border-style: solid;
-  font-size: 12px;
-}
-#list_logo .list_logo .list_logo_center form .sousuo {
-  float: left;
-  width: 80px;
-  height: 36px;
-  color: #fff;
-  font-size: 16px;
-  background: #f30213;
-  text-align: center;
-  line-height: 36px;
-}
-#list_logo .list_logo .list_logo_center .lei_list {
-  width: 706px;
-  height: 20px;
-  margin-top: 5px;
-}
-#list_logo .list_logo .list_logo_center .lei_list a {
-  font-size: 12px;
-  color: #999;
-  line-height: 20px;
-  padding: 0px 4px;
-}
-#list_logo .list_logo .list_logo_center .lei_list span {
-  font-size: 12px;
-  color: #999;
-  line-height: 20px;
-}
-#list_logo .list_logo .list_logo_right .list_cart {
-  position: relative;
-  width: 140px;
-  height: 36px;
-  background: #f9f9f9;
-  padding: 0 28px 0 19px;
-  font-size: 12px;
-  margin: 27px 0px 0px 30px;
-  border: 1px solid #ccc;
-  line-height: 36px;
-}
-#list_logo .list_logo .list_logo_right .list_cart .icon-cart {
-  position: absolute;
-  right: 20px;
-  top: 3px;
-  display: block;
-  width: 16px;
-  height: 33px;
-  line-height: 33px;
-  text-align: center;
-  font-size: 16px;
-  color: #f30213;
-}
-#list_logo .list_logo .list_logo_right .list_cart span {
-  display: block;
-  width: 16px;
-  height: 16px;
-  text-align: center;
-  line-height: 16px;
-  background: #fff;
-  border-radius: 8px;
-}
+  height: 145px; }
+  #list_logo .list_logo {
+    width: 1390px;
+    height: 87px;
+    margin: 0 auto; }
+    #list_logo .list_logo .list_logo_left {
+      width: 276px;
+      height: 50px;
+      margin: 15px 0px 22px; }
+      #list_logo .list_logo .list_logo_left h1 a {
+        display: block;
+        width: 134px;
+        height: 42px;
+        background: url(../img/samlllogo_1.png) no-repeat -10px 0px; }
+    #list_logo .list_logo .list_logo_center {
+      width: 706px;
+      height: 87px;
+      margin-left: 95px;
+      padding: 27px 30px 0 0; }
+      #list_logo .list_logo .list_logo_center form {
+        width: 706px;
+        height: 40px; }
+        #list_logo .list_logo .list_logo_center form .text {
+          float: left;
+          width: 626px;
+          height: 36px;
+          padding: 4px 44px 4px 4px;
+          background: #fff;
+          border-width: 2px 0 2px 2px;
+          border-color: #f30213;
+          border-style: solid;
+          font-size: 12px; }
+        #list_logo .list_logo .list_logo_center form .sousuo {
+          float: left;
+          width: 80px;
+          height: 36px;
+          color: #fff;
+          font-size: 16px;
+          background: #f30213;
+          text-align: center;
+          line-height: 36px; }
+      #list_logo .list_logo .list_logo_center .lei_list {
+        width: 706px;
+        height: 20px;
+        margin-top: 5px; }
+        #list_logo .list_logo .list_logo_center .lei_list a {
+          font-size: 12px;
+          color: #999;
+          line-height: 20px;
+          padding: 0px 4px; }
+        #list_logo .list_logo .list_logo_center .lei_list span {
+          font-size: 12px;
+          color: #999;
+          line-height: 20px; }
+    #list_logo .list_logo .list_logo_right .list_cart {
+      position: relative;
+      width: 140px;
+      height: 36px;
+      background: #f9f9f9;
+      padding: 0 28px 0 19px;
+      font-size: 12px;
+      margin: 27px 0px 0px 30px;
+      border: 1px solid #ccc;
+      line-height: 36px; }
+      #list_logo .list_logo .list_logo_right .list_cart .icon-cart {
+        position: absolute;
+        right: 20px;
+        top: 3px;
+        display: block;
+        width: 16px;
+        height: 33px;
+        line-height: 33px;
+        text-align: center;
+        font-size: 16px;
+        color: #f30213; }
+      #list_logo .list_logo .list_logo_right .list_cart span {
+        display: block;
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        line-height: 16px;
+        background: #fff;
+        border-radius: 8px; }
 
 #gwc {
-  width: 100%;
-}
-#gwc .gwc {
-  width: 990px;
-  margin: 0px auto;
-}
-#gwc .gwc .gwctitle {
-  width: 990px;
-  height: 43px;
-  line-height: 32px;
-  margin-bottom: 10px;
-  padding: 5px 0;
-  background: #f3f3f3;
-  border: 1px solid #e9e9e9;
-  border-top: 0;
-}
-#gwc .gwc .gwctitle .allcheck {
-  width: 133px;
-  height: 32px;
-  line-height: 32px;
-  font-size: 12px;
-}
-#gwc .gwc .gwctitle .goods {
-  width: 208px;
-  height: 32px;
-  line-height: 32px;
-  font-size: 12px;
-}
-#gwc .gwc .gwctitle .kong {
-  width: 170px;
-  height: 32px;
-  font-size: 12px;
-}
-#gwc .gwc .gwctitle .price {
-  width: 160px;
-  height: 32px;
-  padding-right: 40px;
-  text-align: right;
-  font-size: 12px;
-}
-#gwc .gwc .gwctitle .num {
-  width: 80px;
-  height: 32px;
-  line-height: 32px;
-  text-align: center;
-  font-size: 12px;
-}
-#gwc .gwc .gwctitle .sum {
-  width: 140px;
-  height: 32px;
-  line-height: 32px;
-  text-align: right;
-  font-size: 12px;
-  padding-right: 40px;
-}
-#gwc .gwc .gwctitle .do {
-  width: 75px;
-  height: 32px;
-  line-height: 32px;
-  font-size: 12px;
-}
-#gwc .gwc .shop {
-  width: 990px;
-  margin: 0px auto;
-  margin-bottom: 20px;
-}
-#gwc .gwc .shop .everyshop .shoptitle {
-  height: 30px;
-  padding-left: 11px;
-}
-#gwc .gwc .shop .everyshop .shoptitle .shopname {
-  display: inline-block;
-  width: 150px;
-  height: 30px;
-  line-height: 30px;
-  color: #000;
-  font-size: 12px;
-}
-#gwc .gwc .shop .shopgoods {
-  border-style: solid;
-  border-width: 2px 1px 1px;
-  border-color: #aaa #f1f1f1 #f1f1f1;
-  background: #fff;
-}
-#gwc .gwc .shop .shopgoods .goodshead {
-  height: 36px;
-  padding: 5px 10px;
-  line-height: 26px;
-  color: #999;
-}
-#gwc .gwc .shop .shopgoods .goodsitems {
-  position: relative;
-  height: 119px;
-  padding-left: 40px;
-}
-#gwc .gwc .shop .shopgoods .goodsitems .itemskong {
-  width: 498px;
-  height: 0px;
-  margin-bottom: 10px;
-}
-#gwc .gwc .shop .shopgoods .goodsitems .good_check {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 20px;
-  height: 45px;
-}
-#gwc .gwc .shop .shopgoods .goodsitems .itemscon {
-  width: 948px;
-  height: 108px;
-}
-#gwc .gwc .shop .shopgoods .pgoods {
-  width: 300px;
-  height: 107px;
-  padding: 15px 0px 10px 0px;
-}
-#gwc .gwc .shop .shopgoods .pgoods .goodsimg {
-  width: 82px;
-  height: 82px;
-  border: 1px solid #eee;
-  margin-right: 10px;
-  background: #fff;
-  text-align: center;
-  overflow: hidden;
-}
-#gwc .gwc .shop .shopgoods .pgoods .goodsimg img {
-  width: 80px;
-  height: 80px;
-}
-#gwc .gwc .shop .shopgoods .pgoods .goodsderi {
-  width: 206px;
-}
-#gwc .gwc .shop .shopgoods .pgoods .goodsderi a {
-  font-size: 12px;
-  color: #333;
-}
-#gwc .gwc .shop .shopgoods .pgoods .goodsderi a:hover {
-  color: red;
-}
-#gwc .gwc .shop .shopgoods .pgoods .goodsderi .goods {
-  display: inline-block;
-  line-height: 18px;
-  font-size: 12px;
-  color: #333;
-}
-#gwc .gwc .shop .shopgoods .goodstxt {
-  width: 130px;
-  padding: 15px 0px 0px 20px;
-  font-size: 12px;
-  height: 90px;
-  color: #333;
-}
-#gwc .gwc .shop .shopgoods .goodsprice {
-  width: 190px;
-  padding: 15px 40px 10px 0px;
-  text-align: right;
-  height: 90px;
-  font-size: 12px;
-}
-#gwc .gwc .shop .shopgoods .goodsnum {
-  width: 80px;
-  height: 67px;
-  padding: 15px  0px 10px;
-}
-#gwc .gwc .shop .shopgoods .goodsnum .rednum {
-  width: 17px;
-  height: 22px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-#gwc .gwc .shop .shopgoods .goodsnum .many {
-  width: 46px;
-  height: 22px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-#gwc .gwc .shop .shopgoods .goodsnum .addnum {
-  width: 17px;
-  height: 22px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-#gwc .gwc .shop .shopgoods .goodssum {
-  width: 140px;
-  height: 45px;
-  padding: 15px 40px 10px 0px;
-  text-align: right;
-  font-size: 12px;
-}
-#gwc .gwc .shop .shopgoods .delgoods {
-  width: 75px;
-  height: 65px;
-  padding: 15px 0px 10px;
-  font-size: 12px;
-}
-#gwc .barfoot {
-  position: fixed;
-  bottom: 0px;
-  left: 50%;
-  margin-left: -495px;
-  width: 990px;
-  height: 50px;
-  background: #e5e5e5;
-}
-#gwc .barfoot .checknum {
-  width: 110px;
-  margin-right: 20px;
-  text-align: center;
-  line-height: 50px;
-}
-#gwc .barfoot .delsall {
-  width: 110px;
-  text-align: center;
-  line-height: 50px;
-}
-#gwc .barfoot .jiesuan {
-  width: 100px;
-  text-align: center;
-  line-height: 50px;
-  background: #b0b0b0;
-}
-#gwc .barfoot .money {
-  width: 160px;
-  text-align: left;
-  line-height: 50px;
-}
+  width: 100%; }
+  #gwc .gwc {
+    width: 990px;
+    margin: 0px auto; }
+    #gwc .gwc .gwctitle {
+      width: 990px;
+      height: 43px;
+      line-height: 32px;
+      margin-bottom: 10px;
+      padding: 5px 0;
+      background: #f3f3f3;
+      border: 1px solid #e9e9e9;
+      border-top: 0; }
+      #gwc .gwc .gwctitle .allcheck {
+        width: 133px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px; }
+      #gwc .gwc .gwctitle .goods {
+        width: 208px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px; }
+      #gwc .gwc .gwctitle .kong {
+        width: 170px;
+        height: 32px;
+        font-size: 12px; }
+      #gwc .gwc .gwctitle .price {
+        width: 160px;
+        height: 32px;
+        padding-right: 40px;
+        text-align: right;
+        font-size: 12px; }
+      #gwc .gwc .gwctitle .num {
+        width: 80px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 12px; }
+      #gwc .gwc .gwctitle .sum {
+        width: 140px;
+        height: 32px;
+        line-height: 32px;
+        text-align: right;
+        font-size: 12px;
+        padding-right: 40px; }
+      #gwc .gwc .gwctitle .do {
+        width: 75px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px; }
+    #gwc .gwc .shop {
+      width: 990px;
+      margin: 0px auto;
+      margin-bottom: 20px; }
+      #gwc .gwc .shop .everyshop .shoptitle {
+        height: 30px;
+        padding-left: 11px; }
+        #gwc .gwc .shop .everyshop .shoptitle .shopname {
+          display: inline-block;
+          width: 150px;
+          height: 30px;
+          line-height: 30px;
+          color: #000;
+          font-size: 12px; }
+      #gwc .gwc .shop .shopgoods {
+        border-style: solid;
+        border-width: 2px 1px 1px;
+        border-color: #aaa #f1f1f1 #f1f1f1;
+        background: #fff; }
+        #gwc .gwc .shop .shopgoods .goodshead {
+          height: 36px;
+          padding: 5px 10px;
+          line-height: 26px;
+          color: #999; }
+        #gwc .gwc .shop .shopgoods .goodsitems {
+          position: relative;
+          height: 119px;
+          padding-left: 40px; }
+          #gwc .gwc .shop .shopgoods .goodsitems .itemskong {
+            width: 498px;
+            height: 0px;
+            margin-bottom: 10px; }
+          #gwc .gwc .shop .shopgoods .goodsitems .good_check {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 20px;
+            height: 45px; }
+          #gwc .gwc .shop .shopgoods .goodsitems .itemscon {
+            width: 948px;
+            height: 108px; }
+        #gwc .gwc .shop .shopgoods .pgoods {
+          width: 300px;
+          height: 107px;
+          padding: 15px 0px 10px 0px; }
+          #gwc .gwc .shop .shopgoods .pgoods .goodsimg {
+            width: 82px;
+            height: 82px;
+            border: 1px solid #eee;
+            margin-right: 10px;
+            background: #fff;
+            text-align: center;
+            overflow: hidden; }
+            #gwc .gwc .shop .shopgoods .pgoods .goodsimg img {
+              width: 80px;
+              height: 80px; }
+          #gwc .gwc .shop .shopgoods .pgoods .goodsderi {
+            width: 206px; }
+            #gwc .gwc .shop .shopgoods .pgoods .goodsderi a {
+              font-size: 12px;
+              color: #333; }
+              #gwc .gwc .shop .shopgoods .pgoods .goodsderi a:hover {
+                color: red; }
+            #gwc .gwc .shop .shopgoods .pgoods .goodsderi .goods {
+              display: inline-block;
+              line-height: 18px;
+              font-size: 12px;
+              color: #333; }
+        #gwc .gwc .shop .shopgoods .goodstxt {
+          width: 130px;
+          padding: 15px 0px 0px 20px;
+          font-size: 12px;
+          height: 90px;
+          color: #333; }
+        #gwc .gwc .shop .shopgoods .goodsprice {
+          width: 190px;
+          padding: 15px 40px 10px 0px;
+          text-align: right;
+          height: 90px;
+          font-size: 12px; }
+        #gwc .gwc .shop .shopgoods .goodsnum {
+          width: 80px;
+          height: 67px;
+          padding: 15px  0px 10px; }
+          #gwc .gwc .shop .shopgoods .goodsnum .rednum {
+            width: 17px;
+            height: 22px;
+            border: 1px solid #ccc;
+            text-align: center; }
+          #gwc .gwc .shop .shopgoods .goodsnum .many {
+            width: 46px;
+            height: 22px;
+            border: 1px solid #ccc;
+            text-align: center; }
+          #gwc .gwc .shop .shopgoods .goodsnum .addnum {
+            width: 17px;
+            height: 22px;
+            border: 1px solid #ccc;
+            text-align: center; }
+        #gwc .gwc .shop .shopgoods .goodssum {
+          width: 140px;
+          height: 45px;
+          padding: 15px 40px 10px 0px;
+          text-align: right;
+          font-size: 12px; }
+        #gwc .gwc .shop .shopgoods .delgoods {
+          width: 75px;
+          height: 65px;
+          padding: 15px 0px 10px;
+          font-size: 12px; }
+  #gwc .barfoot {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -495px;
+    width: 990px;
+    height: 50px;
+    background: #e5e5e5; }
+    #gwc .barfoot .checknum {
+      width: 110px;
+      margin-right: 20px;
+      text-align: center;
+      line-height: 50px; }
+    #gwc .barfoot .delsall {
+      width: 110px;
+      text-align: center;
+      line-height: 50px; }
+    #gwc .barfoot .jiesuan {
+      width: 100px;
+      text-align: center;
+      line-height: 50px;
+      background: #b0b0b0; }
+    #gwc .barfoot .money {
+      width: 160px;
+      text-align: left;
+      line-height: 50px; }
 
 /*# sourceMappingURL=cart.css.map */

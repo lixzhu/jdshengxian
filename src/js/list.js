@@ -4,10 +4,10 @@
 $(function(){$(".pageDiv").createPage({
     pageCount:6,//总页数
     current:1,//当前页
-    turndown:'true',//是否显示跳转框，显示为true，不现实为false,一定记得加上引号...
+    turndown:'false',//是否显示跳转框，显示为true，不现实为false,一定记得加上引号...
     backFn:function(p){
-    	yenum = p;
     	console.log(p);
+    	init(p);
 
     }
 });

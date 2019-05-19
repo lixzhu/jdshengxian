@@ -174,10 +174,11 @@
 					height: 54px;
 					font-size:30px;
 					line-height:52px;
-					color:#FFF;
+					color:#ddd;
 					font-weight: 700;
 					text-align:center;
 					z-index:2;
+					background:#fff;
 				}
 				.visible{
 					position:relative;
@@ -189,6 +190,7 @@
 						position:absolute;
 						left:0;
 						line-height:54px;
+						z-index:-1;
 						li{
 							float:left;
 							width: 52px;
@@ -209,7 +211,7 @@
 					height: 54px;
 					font-size:30px;
 					line-height:52px;
-					color:#fff;
+					color:#ddd;
 					font-weight: 700;
 					text-align:center;
 					z-index: 2;
