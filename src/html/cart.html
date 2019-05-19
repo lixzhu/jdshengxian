@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/base_px.css">
+	<link rel="stylesheet" href="../css/head.css">
+	<link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+		<!-- //导航块代码 -->
+	<div id="header"></div>
+	<!-- logo区域代码块 -->
+	<div id="list_logo">
+		<div class="list_logo">
+			<div class="list_logo_left fl">
+				<h1>
+					<a href="../index.html"></a>
+				</h1>
+			</div>
+			<div class="list_logo_center fl">
+				<form action="###">
+					<input type="text" placeholder="肉类" class="text searchtext">
+					<input type="text" class="sousuo searchbtn" value="搜索">
+				</form>
+				<div class="lei_list">
+					<a href="###">冷淡食品</a>
+					<span>|</span>
+					<a href="###">牛排</a>
+					<span>|</span>
+					<a href="###">牛肉</a>
+					<span>|</span>
+					<a href="###">牛腱</a>
+					<span>|</span>
+					<a href="####">牛腩</a>
+					<span>|</span>
+					<a href="###">五花肉</a>
+					<span>|</span>
+					<a href="###">酸奶</a>
+					<span>|</span>
+					<a href="###">肋骨</a>
+					<span>|</span>
+					<a href="###">猪肉</a>
+					<span>|</span>
+					<a href="###">猪肋排</a>
+					<span>|</span>
+					<a href="###">牛肉卷</a>
+					<a href="####">肉类生鲜</a>
+					<span>|</span>
+					<a href="###">猪蹄</a>
+					<span>|</span>
+					<a href="####">羊肉</a>
+				</div>
+			</div>
+			<div class="list_logo_right fl">
+				<!-- <div class="list_cart">
+					我的购物车
+					<i class="iconfont icon-cart"></i>
+					<span></span>
+				</div> -->
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- 购物车 -->
+    <div id="gwc">
+        <div class="gwc conmt">
+            <div class="gwctitle">
+                <div class="allcheck fl">
+                    <input type="checkbox" value="">
+                    <span>全选</span>
+                </div>
+                <div class="goods fl">商品</div>
+                <div class="kong fl"></div>
+                <div class="price fl">单价</div>
+                <div class="num fl">数量</div>
+                <div class="sum fl">小计</div>
+                <div class="do fl">操作</div>
+            </div>
+            <!-- 购物车门店 -->
+            <div class="shop conmt" id="cartBox">
+                <div class="everyshop">
+                    <div class="shoptitle">
+                        <input type="checkbox" value="">
+                        <span>
+                            <a href="###" class="shopname">项目旗舰店</a>
+                            <a href="###">
+                                <i></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="shopgoods">
+                        <!-- 商店的头部 -->
+                        <div class="goodshead">
+                            
+                        </div>
+                        <div class="goodsitems">
+                            <div class="good_check">
+                            <input type="checkbox"></div>
+                            <div class="itemscon">
+                                <div class="pgoods fl">
+                                    <div class="goodsimg fl">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="goodsderi fl">
+                                        <i></i>
+                                        <a class="goodssay" href="">进口绿心猕猴桃 精品大果 非四川红心猕猴桃 弥猴桃 京东生鲜 奇异果</a>
+
+                                    </div>
+                                </div>
+                                <div class="goodstxt fl">
+                                    单果重90-110g 10粒
+                                </div>
+                                <div class="goodsprice fl">
+                                    <span>￥345</span>
+                                </div>
+                                <div class="goodsnum fl">
+                                    <input class="rednum fl" type="text" value="-">
+                                    <input class="fl many" type="text" value="1">
+                                    <input class="addnum fl" type="text" value="+">
+                                </div>
+                                <div class="goodssum fl">
+                                    <span>￥345</span>
+                                </div>
+                                <div class="delgoods fl">
+                                    <a href="####">移除</a>
+                                </div>
+                            </div>
+                            <div class="itemskong"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+
+        <div class="barfoot conmt">
+            <p class="delsall fl">
+                <a href="###" class="good_del">删除</a>
+            </p>
+            <p class="jiesuan fr" id="jiesuan">结算</p>
+            <p class="money fr">小计：<span class="totalsum">0.00</span></p>
+            <p class="checknum fr">已选中<span class="shuliang">0</span></p>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/head.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cart.js"></script>
+<script>
+	(function(){
+		$('#header').load('head.html');
+		setTimeout(function() {
+			head();
+		},500);
+	})();
+</script>

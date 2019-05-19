@@ -1,0 +1,521 @@
+/*
+* @Author: 小猪
+* @Date:   2019-05-11 17:15:42
+* @Last Modified by:   小猪
+* @Last Modified time: 2019-05-18 20:04:54
+*/
+@charset "utf-8";
+$font12 : 12px;
+$color:#999999;
+$font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+
+#top_nav{
+	width: 100%;
+    height: 31px;
+    line-height: 30px;
+    background: #e3e4e5;
+    border-bottom: solid 1px #ddd;
+    .top_nav{
+    	height: 30px;
+    	background: #e3e4e5;
+    	color: #999;
+    	.bar_home{
+    		width: 80px;
+    		height: 30px;
+    		padding:0px 2px;
+    		.icon-shouye{
+    			display: inline;
+			    font-size: 16px;
+			    color: #5c5452;
+			    width: 20px;
+			    height: 16px;
+    		}
+    		.djhome{
+    			display:inline;
+    			width: 48px;
+    			line-height:30px;
+    			color:$color;
+    			font-size: $font12;
+    		}
+    	}
+    	.location{
+    		position:relative;
+    		width: auto;
+    		height: 30px;
+    		padding:0px 20px 0px 20px;
+    		line-height:30px;
+    		.nav_black{
+    			position:absolute;
+    			bottom: -2px;
+    			z-index:2;
+    			left:0px;
+    			width: 100%;
+    			height: 3px;
+    			background: #fff;
+    			display:none;
+    		}
+    		.icon-dingweiweizhi{
+    			position:absolute;
+    			display: inline;
+    			left:5px;
+    			top:2px;
+			    font-size: 14px;
+			    color: #5c5452;
+			    width: 14px;
+			    height: 13px;
+    		}
+    		.erji{
+	    		.where{
+	    			font-size: $font12;
+	    			color:$color;
+	    		}
+	    	}
+	    	.dorpdown-layer{
+	    		position:absolute;
+	    		line-height:24px;
+	    		z-index: 1;
+	    		top: 30px;
+	    		left:0px;
+	    		width: 313px;
+	    		height: auto;
+    			padding: 10px 0 10px 10px;
+    			background: #fff;
+    			border: 1px solid #ddd;
+    			display:none;
+	    		.ui-areamini-content-list{
+	    			.item{
+	    				float: left;
+    					width: 60px;
+    					padding: 2px 0;
+    					text-align: center;
+    					line-height:24px;
+    					a{
+    						float: left;
+    						padding: 4px 8px;
+    						color:$color;
+    						font-size: $font12;
+    						font:$font;
+    						&:hover{
+    							color:red;
+    							background: #eee;
+    						}
+    					}
+	    			}
+	    		}
+	    		.areamini_inter{
+	    			    margin: 10px 0 10px 10px;
+	    			.areamini_inter_split{
+	    				width: 262px;
+    					height: 0;
+    					border-bottom: dotted 1px #eee;
+	    			}
+	    			.areamini_inter_desc{
+	    				margin: 9px 0;
+	    				font-size: $font12;
+	    				color:$color;
+	    				font:$font;
+	    			}
+	    			.areamini_inter_list{
+    					.areamini_inter_item{
+							float: left;
+	    					width: 145px;
+	    					height: 26px;
+	    					padding: 0;
+	    					line-height: 26px;
+	    					i{
+	    						display:inline;
+	    						width: 15px;
+	    						height: 12px;
+	    						border: solid 1px transparent;
+	    					}
+	    					.areamini_inter_name{
+	    						display:inline;
+	    						width: 120px;
+	    						height: auto;
+	    						color:$color;
+	    						font-size: $font12;
+	    						font:$font;
+	    						&:hover{
+	    							color:red;
+	    						}
+	    					}
+    					}
+	    			}
+
+	    		}
+
+    		}
+
+    	}
+    	.nav_menu{
+			width: 718px;
+			height: 30px;
+			padding:0px 2px;
+			li{
+				float: left;
+			}
+			.spacer{
+				width: 1px;
+				height: 12px;
+				margin-top: 9px;
+				background:#CCC;
+			}
+			.reglogin{
+				width: 150px;
+				height: 30px;
+				padding:0px 2px;
+				margin-right:10px;
+				.nav_login{
+					color:$color;
+					font-size: $font12;
+					&:hover{
+						color:#f30213;
+					}
+				}
+				.nav_reg{
+					font-size: $font12;
+					color:#f30213;
+				}
+			}
+			.nav_order{
+				width: 64px;
+				height: 30px;
+				padding:0px 8px;
+				a{
+					color:$color;
+					font-size: $font12;
+					&:hover{
+						color:#f30213;
+					}
+				}	
+			}
+
+			.nav_jdvip{
+				width: 66px;
+				height: 30px;
+				padding: 0px 8px;
+				a{
+					color:$color;
+					font-size: $font12;
+					&:hover{
+						color:#f30213;
+					}
+				}
+			}
+			.nav_jdnav{
+				width: 66px;
+				height: 30px;
+				padding: 0px 8px;
+				a{
+					color:$color;
+					font-size: $font12;
+					&:hover{
+						color:#f30213;
+					}
+				}
+			}
+			
+
+			.nav_same{
+				position:relative;
+				width: 82px;
+				height: 30px;
+				padding:0px 25px 0px 8px;
+				a{
+					color:$color;
+					font-size: $font12;
+					&:hover{
+						color:#f30213;
+					}
+				}
+				i{
+					position:absolute;
+					top:10px;
+					right:5px;
+					display:inline;
+					width: 12px;
+					height: 12px;
+					line-height:12px;
+					color:$color;
+					font: $font12;
+				}	
+			}
+			.nav_myjd{
+				position:relative;
+				.dd-spacer{
+					position:absolute;
+    				top:-7px;
+    				z-index:2;
+    				left:-1px;
+    				width: 100%;
+    				height: 10px;
+    				width: 82px;
+    				background: #fff;
+    				display:none;
+				}
+				.myjd_dorpdown{
+					position:absolute;
+					left:0;
+					width: 280px;
+					top: 30px;
+    				background: #fff;
+    				border: 1px solid #ddd;
+    				display:none;
+				}
+				.myjdlist1{
+					width: 265px;
+    				padding: 5px 0 5px 15px;
+    				overflow: hidden;
+    				.fore1{
+    					float: left;
+    					width: 126px;
+    					.item{
+    						a{
+    							color:$color;
+    							font:$font;
+    							font-size: $font12;
+    							&:hover{
+    								color:red;
+    							}
+    						}
+    					}
+    				}
+    			}
+    			
+    			.myjdlist2{
+					width: 265px;
+    				padding: 5px 0 5px 15px;
+    				border-top: 1px solid #f1f1f1;
+    				.fore1{
+    					float: left;
+    					width: 126px;
+    					.item{
+    						a{
+    							color:$color;
+    							font:$font;
+    							font-size: $font12;
+    							&:hover{
+    								color:red;
+    							}
+    						}
+    					}
+    				}
+    			}
+			}
+			.purchase{
+				position:relative;
+				.purdorpdown{
+					position:absolute;
+					z-index: 1;
+					left: 0px;
+   			 		width: 155px;
+    				padding: 10px 0 10px 15px;
+    				top: 30px;
+    				background: #fff;
+    				border: 1px solid #ddd;
+    				display:none;
+				}
+				.dd-spacer{
+					position:absolute;
+    				top:-7px;
+    				z-index:2;
+    				left:-1px;
+    				height: 10px;
+    				width: 82px;
+    				background: #fff;
+    				display:none;
+				}
+				.item{
+					display: inline-block;
+    				width: 56px;
+    				white-space: nowrap;
+    				a{
+    					color:$color;
+    					font:$font;
+    					font-size: $font12;
+    					&:hover{
+    						color:red;
+    					}
+    				}
+				}
+			}
+			.serve{
+				position:relative;
+				.servedorpdown{
+					position:absolute;
+					top:30px;
+					right:-1px;
+					width: 170px;
+					padding: 10px 0;
+					background: #fff;
+    				border: 1px solid #ddd;
+    				display:none;
+    				z-index:1;
+					.dd-spacer{
+						position:absolute;
+	    				top:-7px;
+	    				z-index:2;
+	    				right:0px;
+	    				height: 10px;
+	    				width: 82px;
+	    				background: #fff;
+	    				display:none;
+					} 
+					.item-client{
+						font-weight: 700;
+    					padding-left: 10px;
+    					color: #666;
+					}
+					.item-business{
+						font-weight: 700;
+    					padding-left: 10px;
+    					color: #666;
+					}
+					.item{
+						display:inline-block;
+						width: 70px;
+						padding-left:10px;
+						a{
+	    					color:$color;
+	    					font:$font;
+	    					font-size: $font12;
+	    					&:hover{
+	    						color:red;
+	    					}
+	    				}
+					}
+
+				}
+			}
+				.website{
+					position:relative;
+					.websitedorpdown{
+						position:absolute;
+						top:30px;
+						right: -69px;
+						width: 1210px;
+						padding: 20px 0 16px;
+						background: #fff;
+    					border: 1px solid #ddd;
+    					display:none;
+    					z-index:1;
+
+					}
+					.dd-spacer{
+    					position: absolute;
+						right: 69px;
+    					width: 82px;
+    					top: -7px;
+    					height: 10px;
+    					background: #fff;
+    					overflow: hidden;
+    					display:none;
+					}
+					.fore1{
+						float: left;
+						width: 367px;
+						padding-left: 20px;
+						dt{
+							font-size: 14px;
+    						font-weight: 700;
+    						margin-bottom: 6px;
+    						color: #666;						
+						}
+						.item{
+							float: left;
+							width: 86px;
+							a{
+		    					color:$color;
+		    					font:$font;
+		    					font-size: $font12;
+		    					&:hover{
+		    						color:red;
+		    					}
+	    					}
+						}
+					}
+					.fore2{
+						float: left;
+						width: 280px;
+						padding-left: 20px;
+    					border-left: 1px solid #eee;
+						dt{
+							display:block;
+							font-size: 14px;
+    						font-weight: 700;
+    						margin-bottom: 6px;
+    						color: #666;						
+						}
+						dd{
+							display:block;
+							.item{
+								float: left;
+								width: 86px;
+								a{
+			    					color:$color;
+			    					font:$font;
+			    					font-size: $font12;
+			    					&:hover{
+			    						color:red;
+			    					}
+		    					}
+							}
+
+						}
+					}
+					.fore3{
+						float: left;
+						width: 280px;
+						padding-left: 20px;
+    					border-left: 1px solid #eee;
+						dt{
+							font-size: 14px;
+    						font-weight: 700;
+    						margin-bottom: 6px;
+    						color: #666;						
+						}
+						.item{
+							float: left;
+							width: 86px;
+							a{
+		    					color:$color;
+		    					font:$font;
+		    					font-size: $font12;
+		    					&:hover{
+		    						color:red;
+		    					}
+	    					}
+						}
+					}
+					.fore4{
+						float: left;
+						width: 280px;
+						padding-left: 20px;
+    					border-left: 1px solid #eee;
+						dt{
+							font-size: 14px;
+    						font-weight: 700;
+    						margin-bottom: 6px;
+    						color: #666;						
+						}
+						.item{
+							float: left;
+							width: 86px;
+							a{
+		    					color:$color;
+		    					font:$font;
+		    					font-size: $font12;
+		    					&:hover{
+		    						color:red;
+		    					}
+	    					}
+						}
+					}
+
+				}
+			
+
+    	}
+
+    }
+}
