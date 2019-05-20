@@ -143,60 +143,65 @@ $('#goodsdec').on('click','.selectsize',function(){
 });
 
 //加入购物车
-$('#goodsdec').on('click','.join',function(){
-	var username = getCookie('username');
-	var gid = $(this).attr('data-gid');
-	var much = $(this).prev().children(0).val();
-	var describei = $(this).parent().parent().children(0).find('.goodsxiangxi').html();
-	var shopname = $(this).parent().parent().children(0).find('.shopnames').html()
-	var bigimg = $(this).parent().parent().prev().children(0).children(0).attr('src').slice(3);
-	var price = $(this).parent().parent().find('.price').children(1).find('.money').html().slice(1);
-	if(howsize){
-		$.ajax({
-			type : 'post',
-			url : '../api/detailed.php',
-			data : {
-				gid : gid,
-				usernames : username,
-				much : much,
-				describei :describei,
-				bigimg : bigimg,
-				howsize : howsize,
-				shopname :shopname,
-				price : price
-			},
-			success : function(str) {
-				console.log(str);
-				if(str == 'yes'){
-					alert('成功加入购物车');
-				}else{
-					alert('加入购物车失败');
+if(getCookie('username')){
+	$('#goodsdec').on('click','.join',function(){
+		var username = getCookie('username');
+		var gid = $(this).attr('data-gid');
+		var much = $(this).prev().children(0).val();
+		var describei = $(this).parent().parent().children(0).find('.goodsxiangxi').html();
+		var shopname = $(this).parent().parent().children(0).find('.shopnames').html()
+		var bigimg = $(this).parent().parent().prev().children(0).children(0).attr('src').slice(3);
+		var price = $(this).parent().parent().find('.price').children(1).find('.money').html().slice(1);
+		if(howsize){
+			$.ajax({
+				type : 'post',
+				url : '../api/detailed.php',
+				data : {
+					gid : gid,
+					usernames : username,
+					much : much,
+					describei :describei,
+					bigimg : bigimg,
+					howsize : howsize,
+					shopname :shopname,
+					price : price
+				},
+				success : function(str) {
+					console.log(str);
+					if(str == 'yes'){
+						alert('成功加入购物车');
+					}else{
+						alert('加入购物车失败');
+					}
 				}
-			}
-		});
+			});
 
-	}else{
-		alert('请选择种类类型');
-	}
+		}else{
+			alert('请选择种类类型');
+		}
 
-});
+	});
+
+}else{
+	alert('请登录');
+}
 
 //点击购物车跳转购物车页面
 $('#list_cart').click(function() {
 	location.href = 'cart.html';
 });
 
-// 点击左右按钮
-$('#goodsdec').on('click','.leftbtn',function(){
-	var ulleft = $(this).next().eq(0).css('left').slice(0,-2);
-	if(ulleft >= 42){
-		$(this).next().eq(0).css('left','42px');
-	}else{
-		var movel = (ulleft * 1 + 52) + 'px';  
-		 $(this).next().eq(0).css('left',movel);
-	}
+// // 点击左右按钮
+// $('#goodsdec').on('click','.leftbtn',function(){
+// 	var ulleft = $(this).next().eq(0).css('left').slice(0,-2);
+// 	if(ulleft >= 42){
+// 		$(this).next().eq(0).css('left','42px');
+// 	}else{
+// 		var movel = (ulleft * 1 + 52) + 'px';  
+// 		 $(this).next().eq(0).css('left',movel);
+// 	}
 
-});
+// });
 
 // // $('#goodsdec').on('click','.rightbtn',function(){
 // // 	var ulwidth = $(this).next().eq(0).children() * 52;
